@@ -1,0 +1,35 @@
+.linkitup a{
+    text-decoration: none;
+}
+
+.header2{
+    height: 5vh;
+
+    background-color:black;
+    opacity: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+    
+
+    
+}
+
+
+.homego{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    width: 10%;
+    /* background-color: white; */
+    height: 80%;
+    margin-left: 20px;
+    text-decoration: none;
+    
+}
+.homego:hover{
+cursor: pointer;
+opacity: 80%;
+}

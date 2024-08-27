@@ -1,0 +1,137 @@
+body{
+    /* background-image: url(../mindfull.jpg);
+    background-size: cover; */
+    background-color: #F5F7F8;
+}
+header{
+    /* position: absolute; */
+    /* position: fixed; */
+    
+    z-index: 9999;
+    padding: 0 0.9rem 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.1);
+    
+    
+    height: 10vh;
+}
+
+.logoimg{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+header nav {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  
+}
+.logo{
+   
+    width: 250px;
+    
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a{
+    text-decoration: none;
+    padding: 0 1.5rem;
+    color: black;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.search{
+    font-size: 1.3rem;
+}
+
+.title{
+    margin-left: 8vw;
+}
+.blogs{
+    margin-top: 10vh;
+    margin-left: 8vw;
+    /* margin-right: 10vw; */
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    /* grid-template-rows: 35vh 35vh; */
+    gap: 30px 30px;
+}
+
+.blog_box{
+
+    height: 37vh;
+    /* width: 40vw; */
+    background-color:white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    /* background: transparent; */
+    backdrop-filter: blur(100px);
+    border : 0.5px solid rgba(255, 255, 255, .5);
+    
+}
+
+.blog_box:hover{
+    scale: 0.99;
+    
+   
+    box-shadow: -8px 10px 25px -6px rgba(0,0,0,0.75);;
+}
+
+
+
+.box_img img {
+    width: 200px;
+    height: 230px;
+    margin-left: 10px;
+    background-size: contain;
+    border-radius: 50%;
+
+}
+
+.box_title{
+    /* margin-bottom: 60px; */
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+.box_content{
+    /* margin-top: 40px; */
+    font-size: 14px;
+    margin-top: 4%;
+}
+
+.box_author{
+    font-size: 16px;
+    margin-top: 4%;
+}
+
+.box_text{
+    margin-left: 10px;
+     
+     
+    
+    
+}
+
+
+.blogs a,a,a,a{
+    text-decoration: none;
+    color: black;
+}
+
+
